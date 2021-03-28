@@ -28,7 +28,7 @@ Configure "RDKit" environment variables you need install python2.7 first("Anacon
 
 #### 训练
 1.将上述特征提取中提取好特征的csv文件放在UDDA文件夹下
-2.打开data_loader.py,functions.py,main.py,model.py,test.py，
+2.打开data_loader.py,functions.py,main.py,model.py,test.py文件
 3.将main.py中train_data和val_data中的数据集名称改为相应的训练集和测试集数据集名称
 ![ab4cd25e96a3bfde469e1ec1b0f9dd9](https://user-images.githubusercontent.com/20634431/112744392-52345e80-8fd2-11eb-8642-a6edea1d851f.png)
 4.运行main.py文件，就能得到相应的R2和RMSE的值。
