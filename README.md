@@ -17,7 +17,6 @@ Configure "RDKit" environment variables you need install python2.7 first("Anacon
 把分子式单独放在一个excel表中，名字为‘Input_Smiles.xlsx’ 把活性值单独放在一个excel表中，名字为‘Response.xlsx’
 4.生成ECFP
 运行‘ECFP_8.py’脚本，输入上一步的’Input_Smiles.xlsx’，输出一个‘xxxx.csv’文件
-![u=1595072465,3644073269 fm=193 f=GIF](https://user-images.githubusercontent.com/20634431/112744110-a12cc480-8fcf-11eb-9e18-b4beac419479.jpg)
 
 “xxxx”是自己选择一个名字
 5.处理成DNN需要的格式
