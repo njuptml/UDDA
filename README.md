@@ -9,7 +9,7 @@
 下载GPCRs数据集，百度网盘：https://pan.baidu.com/s/1rlXoDZmHjPryqJ4UjDcQVg，提取码: x3t2 
 
 #### 特征提取
-打开features文件夹
+    打开features文件夹
     1.数据都在‘GPCRs’中
     2.安装Rdkit用来处理生成ECFP（RDKit_2016_03_1在文件夹里）
     Configure "RDKit" environment variables you need install python2.7 first("Anaconda" will be convenient) https://www.anaconda.com/download/ a) put "RDKit_2016_03_1" to disk     C b) new a system path called "RDBASE" and key is "C:\RDKit_2016_03_1" c) new a system path called "PYTHONPATH" and key is "%RDBASE%" d) add "%RDBASE%\lib" to path you can     test your whether your RDKit works by type "from rdkit import Chem" on your python console.
