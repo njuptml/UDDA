@@ -19,10 +19,10 @@
     运行‘ECFP_8.py’脚本，输入上一步的’Input_Smiles.xlsx’，输出一个‘xxxx.csv’文件
 ![b233e7eece6499814943c83ad4ef115](https://user-images.githubusercontent.com/20634431/112744150-097ba600-8fd0-11eb-9aa3-42e159e5a515.png)
     “xxxx”是自己选择一个名字,如下图中命名为“B1_ECFP8_1024.csv”
-![7cf91f5e160324ffe5fb71f0462ff6f](https://user-images.githubusercontent.com/20634431/112744159-22845700-8fd0-11eb-8b27-e15c43fdfeb0.png)
+![7cf91f5e160324ffe5fb71f0462ff6f](https://user-images.githubusercontent.com/20634431/112744159-22845700-8fd0-11eb-8b27-e15c43fdfeb0.png)，<br>
     5.处理成DNN需要的格式
-    运行‘DNN_prepare.py’脚本，输入‘xxxx.csv’和‘Response.xlsx’，输出 ‘xxxx_training.csv’和‘xxxx_test.csv’
-    ![0bec90ef2a747a3429afcc1cbd87904](https://user-images.githubusercontent.com/20634431/112744383-38931700-8fd2-11eb-9907-fe7d14018adb.png)
+    运行‘DNN_prepare.py’脚本，输入‘xxxx.csv’和‘Response.xlsx’，输出 ‘xxxx_training.csv’和‘xxxx_test.csv’，<br>
+![0bec90ef2a747a3429afcc1cbd87904](https://user-images.githubusercontent.com/20634431/112744383-38931700-8fd2-11eb-9907-fe7d14018adb.png)
     代码中输出文件保存的路径自己选择
 
 #### 训练
