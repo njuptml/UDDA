@@ -22,14 +22,14 @@
 ![7cf91f5e160324ffe5fb71f0462ff6f](https://user-images.githubusercontent.com/20634431/112744159-22845700-8fd0-11eb-8b27-e15c43fdfeb0.png)
     5.处理成DNN需要的格式
     运行‘DNN_prepare.py’脚本，输入‘xxxx.csv’和‘Response.xlsx’，输出 ‘xxxx_training.csv’和‘xxxx_test.csv’
-![0bec90ef2a747a3429afcc1cbd87904](https://user-images.githubusercontent.com/20634431/112744383-38931700-8fd2-11eb-9907-fe7d14018adb.png)
+    ![0bec90ef2a747a3429afcc1cbd87904](https://user-images.githubusercontent.com/20634431/112744383-38931700-8fd2-11eb-9907-fe7d14018adb.png)
     代码中输出文件保存的路径自己选择
 
 #### 训练
     1.将上述特征提取中提取好特征的csv文件放在UDDA文件夹下
     2.打开data_loader.py,functions.py,main.py,model.py,test.py文件
     3.将main.py中train_data和val_data中的数据集名称改为相应的训练集和测试集数据集名称
-![ab4cd25e96a3bfde469e1ec1b0f9dd9](https://user-images.githubusercontent.com/20634431/112744392-52345e80-8fd2-11eb-8642-a6edea1d851f.png)
+    ![ab4cd25e96a3bfde469e1ec1b0f9dd9](https://user-images.githubusercontent.com/20634431/112744392-52345e80-8fd2-11eb-8642-a6edea1d851f.png)
     4.运行main.py文件，就能得到相应的R2和RMSE的值。
 ![3ad82e7e50e930cb70d87a5f0a3ecb6](https://user-images.githubusercontent.com/20634431/112744604-23b78300-8fd4-11eb-918a-90dc3dc4a163.png)
 
