@@ -10,8 +10,8 @@
 
 #### 特征提取
     打开features文件夹
-    1.数据都在‘GPCRs’中
-    2.安装Rdkit用来处理生成ECFP（RDKit_2016_03_1在文件夹里）
+    1.数据都在‘GPCRs’中，<br>
+    2.安装Rdkit用来处理生成ECFP（RDKit_2016_03_1在文件夹里），<br>
     Configure "RDKit" environment variables you need install python2.7 first("Anaconda" will be convenient) https://www.anaconda.com/download/ a) put "RDKit_2016_03_1" to disk     C b) new a system path called "RDBASE" and key is "C:\RDKit_2016_03_1" c) new a system path called "PYTHONPATH" and key is "%RDBASE%" d) add "%RDBASE%\lib" to path you can     test your whether your RDKit works by type "from rdkit import Chem" on your python console.
     3.处理数据
     把分子式单独放在一个excel表中，名字为‘Input_Smiles.xlsx’ 把活性值单独放在一个excel表中，名字为‘Response.xlsx’，<br>
@@ -26,10 +26,10 @@
     代码中输出文件保存的路径自己选择
 
 #### 训练
-    1.将上述特征提取中提取好特征的csv文件放在UDDA文件夹下
-    2.打开data_loader.py,functions.py,main.py,model.py,test.py文件
-    3.将main.py中train_data和val_data中的数据集名称改为相应的训练集和测试集数据集名称
+    1.将上述特征提取中提取好特征的csv文件放在UDDA文件夹下，<br>
+    2.打开data_loader.py,functions.py,main.py,model.py,test.py文件，<br>
+    3.将main.py中train_data和val_data中的数据集名称改为相应的训练集和测试集数据集名称，<br>
    ![ab4cd25e96a3bfde469e1ec1b0f9dd9](https://user-images.githubusercontent.com/20634431/112744392-52345e80-8fd2-11eb-8642-a6edea1d851f.png)，<br>
-    4.运行main.py文件，就能得到相应的R2和RMSE的值。
+    4.运行main.py文件，就能得到相应的R2和RMSE的值。，<br>
    ![3ad82e7e50e930cb70d87a5f0a3ecb6](https://user-images.githubusercontent.com/20634431/112744604-23b78300-8fd4-11eb-918a-90dc3dc4a163.png)
 
